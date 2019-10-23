@@ -76,10 +76,11 @@ body{
     float: left;
   }
 
-  .section-container{
+  .section-container, .options-container{
       width: 100%;
       min-height: 100px;
   }
+
 
   @media only screen and (max-width:1400px){
       body{
