@@ -43,7 +43,8 @@ body{
 
   .container{
       width: 90%;
-      height: 300px;
+      min-height: 100px;
+      overflow: hidden;
       background-color: firebrick;
       margin: 0 auto;
   }
