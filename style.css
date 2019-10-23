@@ -58,6 +58,29 @@ body{
     margin-left: 10px;
   }
 
+  .section1{
+      width: 70%;
+      min-height: 300px;
+      overflow: hidden;
+      background-color: floralwhite;
+      color: black;
+      float: left;
+  }
+
+  .section2{
+    width: 30%;
+    min-height: 500px;
+    overflow: hidden;
+    background-color: floralwhite;
+    color: black;
+    float: left;
+  }
+
+  .section-container{
+      width: 100%;
+      min-height: 100px;
+  }
+
   @media only screen and (max-width:1400px){
       body{
           background-color: salmon;
@@ -90,7 +113,7 @@ body{
             font-family: 'Courier New', Courier, monospace;
         }
     }
-
+    /*mobile*/
     @media only screen and (max-width:600px){
         body{
             background-color: cyan;
@@ -111,5 +134,9 @@ body{
         .container{
             width: 100%;
 
+        }
+
+        .section1, .section2{
+            font-size: 20px;
         }
     }
